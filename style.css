@@ -1,76 +1,37 @@
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #eee;
-  color: #333;
+.gold-gradient {
+    background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
 }
-header {
-  background: #ddd;
-  padding: 20px 0;
+.text-gold {
+    color: #D4AF37;
 }
-.container.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
+.border-gold {
+    border-color: #D4AF37;
 }
-.logo {
-  font-weight: bold;
+.btn-gold {
+    background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
+.btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.book-btn {
-  background: #333;
-  color: #fff;
-  padding: 5px 15px;
-  border-radius: 20px;
+.text-large {
+    font-size: 1.125rem;
 }
-.hero {
-  height: 300px;
-  background: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 2em;
-  font-weight: bold;
+.text-xlarge {
+    font-size: 1.25rem;
 }
-.services {
-  padding: 40px 20px;
-  text-align: center;
+.text-xxlarge {
+    font-size: 1.5rem;
 }
-.service-cards {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+.text-xxxlarge {
+    font-size: 2rem;
 }
-.card {
-  width: 30%;
-  background: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px #ccc;
+.max-w-8xl {
+    max-width: 90rem;
 }
-.price {
-  font-weight: bold;
-  color: #000;
-}
-.booking, .about, .social {
-  padding: 40px 20px;
-  text-align: center;
-}
-.booking-options .option {
-  margin: 10px 0;
-}
-button {
-  background: #333;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 20px;
-  cursor: pointer;
+.leading-relaxed {
+    line-height: 1.75;
 }
